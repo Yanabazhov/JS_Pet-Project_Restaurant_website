@@ -1,0 +1,165 @@
+
+.catalog {
+    position: relative;
+    background-color: #F2F2F2;
+    
+    .catalog-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        padding-left: 50px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .category-image{
+        position: absolute;
+        width: 40px;
+        height: 43px;
+        top: 0;
+    }
+    .catalog__cards {
+        display: flex;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-right: 35px;
+
+        .catalog__cards__card {
+            width: 28%;
+            margin-bottom: 30px;
+            background-color: white;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+
+            img {
+                width: 100%;
+            }
+        }
+        .show-card {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        b {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            padding-left: 14px;
+        }
+        .card-rate {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #A4ACAD;
+            display: inline-block;
+            margin-top: 55px;
+            padding-left: 14px;
+        }
+        hr {
+            border: 1px solid #F2F2F2;
+            width: 100%;
+        }
+        .card__price {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: black;
+            padding-left: 14px;
+            padding-right: 37px;
+        }
+        .btn {
+            background: #F46D40;
+            border-radius: 5px;
+            width: 143px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            color: #F2F2F2;
+            border: none;
+            margin-bottom: 10px;
+
+            &:focus{
+                background-color: #724130;
+
+            }
+            &:hover{
+                background-color: #995a45;
+            }
+        }
+    }
+    .custom-select{
+        text-align: end;
+        padding-right: 20px;
+        
+        #sort-select {
+            width: 198px;
+            padding: .3125rem 3rem .3125rem 1rem;
+            background-image: url("../img/Vector4.png");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            appearance: none;
+            border: 1px solid #d8e2ef;
+            color: #344040;
+            background-size: 25px 18px;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+
+        }
+    }
+    @media (max-width: 480px) {
+        .catalog__cards{
+            display: flex;
+            flex-direction: column;
+            .catalog__cards__card {
+                width: 100%;
+                margin-bottom: 15px;
+                img{
+                    width: 25%;
+                }
+                .card-rate {
+                    margin-top: 5px;
+                }
+                .card__price {
+                    font-size: 15px;
+                }
+                .btn-card {
+                    height: 20%;
+                    right: 10%;
+                }
+            }
+        }
+        .catalog-header {
+            display: flex;
+            flex-direction: column;
+            margin-top: 14px;
+            
+            h1 {
+               text-align: center;
+               padding-left: 0;
+               font-size: 27px;
+               margin-top: 2px;
+               margin-bottom: 2px;
+            }
+            .custom-select {
+                margin: 0 auto;
+                
+                #sort-select {
+                    background-image: url(/img/lines.png);
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+    
+} 

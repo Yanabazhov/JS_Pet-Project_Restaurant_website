@@ -1,0 +1,200 @@
+header {
+
+    .header__container {
+        height: 90px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+        background-image: url(../img/Group1.png); 
+        background-repeat: no-repeat;
+        background-position: left 2% bottom 12%;
+        align-items: center;
+        margin: 0,auto;
+        border-bottom: 0.5px solid #A4ACAD;
+        
+        .header__numbers {
+            grid-area: 1 / 1 / 2 / 2;
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+            width: 185px;
+
+            > * {
+                flex-basis: calc(33.33% - 1px);
+                margin-right: 1px; 
+    
+                &:last-child {
+                    margin-right: 0; 
+                }
+            }
+
+            :nth-child(1) {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                color: #111111;
+                padding-left: 15px;
+                display: inline;
+                margin: 0;
+                font-family: 'DIN Pro';
+            }
+            :nth-child(2) {
+                height: 36px;
+                left: 362px;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 18px;
+                text-align: center;
+                color: #FF9846;
+                display: inline;
+                margin: 0;
+            }
+            :nth-child(3) {
+                height: 36px;
+                left: 362px;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 18px;
+                text-align: center;
+                color: #FF9846;
+                display: inline;
+                margin: 0;
+            }
+
+            :nth-child(4) {
+                margin: 0;
+                font-family: "DIN Pro";
+                color: #A4ACAD;
+                font-size: 14px;
+                line-height: 17px;
+                display: inline-block;
+            }
+
+        }
+        .header__city {
+            grid-area: 1 / 2 / 2 / 5;
+            border-left: 1px solid #A4ACAD;
+            height: 90px;
+
+            :nth-child(1) {
+                font-family: 'DIN Pro';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 17px;
+                color: #A4ACAD;
+                margin-top: 19px;
+                margin-left: 10px;
+                margin-bottom: 0px;
+            }
+
+            :nth-child(2) {
+                font-family: 'DIN Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                margin-top: 2px;
+                margin-left: 11px;
+            }
+        }
+        .header__search {
+            grid-area: 1 / 5 / 2 / 7;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-right: 40px;
+            margin-bottom: 10px;
+
+            a {
+                text-decoration: none;
+            
+                &:hover{
+                    color: #FF9846; 
+                }
+            
+                &:active {
+                    color: #FF9846; 
+                }
+            }
+
+            :nth-child(1){
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #111111;
+                
+            }
+            :nth-child(2){
+                color: #111111;
+                margin-left: 10px;
+                text-align: center;
+                height: 30px;
+                width: 100px;
+            }
+            .input-container{
+                margin-left: 10px;
+                display: flex;
+
+                img {
+                    height: 30px; 
+                    width: 30px;
+                }
+
+                #authorSearch{
+                    border: none;
+                    border-bottom: 1px solid rgb(177, 175, 175);
+                }
+            }
+
+        }
+    }
+
+    @media (max-width: 480px) {
+        .header__container {
+            grid-template-columns: unset; 
+            grid-template-rows: unset; 
+            position: absolute; 
+            top: 0;
+            right: 12%;
+            display: flex;
+            background-image: none;
+            border-bottom: none;
+
+            .header__numbers {
+                grid-area: unset;
+                margin-left: 10px;
+                max-width: 137px;
+                &:nth-child(2){
+                    width: 20px!important;
+                }
+            }
+
+            .header__hourse {
+                max-width: 61px;
+                padding-left: 10px;
+            }
+        
+            .header__city {
+                display: none;
+            }
+        
+            .header__search {
+                .header__search-reviews {
+                    display: none;
+                }
+                .header__search-delivery {
+                    display: none;
+                }
+                .input-container {
+
+                    #authorSearch{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

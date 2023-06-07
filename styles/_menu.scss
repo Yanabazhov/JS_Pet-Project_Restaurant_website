@@ -1,0 +1,134 @@
+aside{
+    max-width: 200px;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    a.logo {
+        display: block;
+        width: 140px;
+        height: 140px;
+
+    }
+    nav {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+        position: relative;
+        a {
+            display: block;
+            margin-top: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: black;
+
+            &:hover{
+                color: #FF9846;
+            }
+            img {
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 10px;
+              padding-right: 10px;
+            }
+        }
+
+            .button-promo__salads{
+                right: 20px;
+                top: 240px;
+                position: absolute;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 14px;
+                border: none;
+                border-radius: 20px;
+                background-color: #EB5757;
+                width: 50px;
+                height: 15px;
+                color: white;
+                text-align: center;
+            }
+
+            .button-promo__wok{
+                right: 20px;
+                top: 130px;
+                position: absolute;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 14px;
+                border: none;
+                border-radius: 20px;
+                background-color: #EB5757;
+                width: 50px;
+                height: 15px;
+                color: white;
+                text-align: center;
+            }
+        
+        // \a
+    }
+    @media (max-width: 480px) {
+
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 500px; 
+
+        .logo {
+            max-height: 70px;
+        }
+        nav{
+            border-top: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        nav a {
+            flex-basis: 50%;
+            max-width: 170px;
+            height: 150px;
+        }
+        a img {
+            max-width: 61px;
+        }
+        .navigationBlock {
+            display: none;
+        }
+        .button-promo__salads, .button-promo__wok {
+            display: none;
+        }
+        nav :nth-child(1) {
+            background-image: url(../img/setsImg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav :nth-child(2) {
+            background-image: url(../img/pizzaImg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav :nth-child(3) {
+            background-image: url(../img/wokImg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav :nth-child(4) {
+            background-image: url(../img/rollsImg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav :nth-child(5) {
+            background-image: url(../img/salatsImg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        nav :nth-child(6) {
+            background-image: url(../img/drinksImg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+    
+}

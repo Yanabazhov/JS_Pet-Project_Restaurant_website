@@ -1,0 +1,706 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "title": "Salmon set",
+        "image": "img/Rectangle1.png",
+        "price": 550,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 2,
+        "title": "BigBro set",
+        "image": "img/Rectangle2.png",
+        "price": 560,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Fishing set",
+        "image": "img/Rectangle3.png",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Lovely set",
+        "image": "img/Rectangle4.png",
+        "price": 500,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 5,
+        "title": "BigBang set",
+        "image": "img/Rectangle5.png",
+        "price": 600,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 6,
+        "title": "MaybeI set",
+        "image": "img/Rectangle6.png",
+        "price": 700,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+       },
+      {
+        "id": 7,
+        "title": "Joice set",
+        "image": "img/Rectangle7.png",
+        "price": 400,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Mono set",
+        "image": "img/Rectangle8.png",
+        "price": 580,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 9,
+        "title": "HereIAm set",
+        "image": "img/Rectangle9.png",
+        "price": 570,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1050 gram",
+          "count": "30 pcs",
+          "category": "Sets",
+          "img": "img/sets.png"
+        }
+      },
+      {
+        "id": 10,
+        "title": "KillBill",
+        "image": "img/kill_bill-637x637.jpg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Leon",
+        "image": "img/leon-637x637.jpg",
+        "price": 320,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Machete",
+        "image": "img/machete-637x637.jpg",
+        "price": 390,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Madagaskar",
+        "image": "img/madagascar-637x637.jpg",
+        "price": 450,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Ocean",
+        "image": "img/ocean-637x637.jpg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 15,
+        "title": "OmShanti",
+        "image": "img/om_shanti_om-637x637.jpg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 16,
+        "title": "OnceUpon",
+        "image": "img/once_upon-637x637.jpg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 17,
+        "title": "Perfect Stranger",
+        "image": "img/perfect_strangers-637x637.jpg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 18,
+        "title": "Poseidon",
+        "image": "img/poseidon-637x637.jpg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "15 pcs",
+          "category": "Pizza",
+          "img": "img/pngwing.com.png"
+        }
+      },
+      {
+        "id": 19,
+        "title": "Fricasse with chicken",
+        "image": "img/wok1.jpeg",
+        "price": 150,
+        "currency": "UAH",
+        "rating": {
+          "rate": "200 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 20,
+        "title": "Fricasse with pork",
+        "image": "img/wok2.jpeg",
+        "price": 250,
+        "currency": "UAH",
+        "rating": {
+          "rate": "230 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 21,
+        "title": "Fricasse with veal",
+        "image": "img/wok3.jpeg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "230 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 22,
+        "title": "Pasta with Meat Balls",
+        "image": "img/wok4.jpeg",
+        "price": 190,
+        "currency": "UAH",
+        "rating": {
+          "rate": "200 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 23,
+        "title": "Chicken truffels",
+        "image": "img/wok5.jpeg",
+        "price": 250,
+        "currency": "UAH",
+        "rating": {
+          "rate": "250 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 24,
+        "title": "BBQ Pork",
+        "image": "img/wok6.jpeg",
+        "price": 350,
+        "currency": "UAH",
+        "rating": {
+          "rate": "250 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 25,
+        "title": "Сhicken Fillet",
+        "image": "img/wok7.jpeg",
+        "price": 130,
+        "currency": "UAH",
+        "rating": {
+          "rate": "200 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 26,
+        "title": "Grill Set",
+        "image": "img/wok8.jpeg",
+        "price": 450,
+        "currency": "UAH",
+        "rating": {
+          "rate": "1000 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 27,
+        "title": "Nigiri Sushi",
+        "image": "img/sush1.jpeg",
+        "price": 220,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 28,
+        "title": "Rainbow Roll",
+        "image": "img/sush2.jpeg",
+        "price": 240,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 29,
+        "title": "Dragon Roll",
+        "image": "img/sush3.jpeg",
+        "price": 260,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 30,
+        "title": "Spicy Tuna Roll",
+        "image": "img/sush4.jpeg",
+        "price": 220,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 31,
+        "title": "Tempura Roll",
+        "image": "img/sush5.jpeg",
+        "price": 250,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 32,
+        "title": "California Roll",
+        "image": "img/sush6.jpeg",
+        "price": 230,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 33,
+        "title": "Sashimi",
+        "image": "img/sush7.jpeg",
+        "price": 260,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 34,
+        "title": "Maki Sushi",
+        "image": "img/sush8.jpeg",
+        "price": 220,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 35,
+        "title": "Mango Madness",
+        "image": "img/drink1.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 36,
+        "title": "Electric Lemonade",
+        "image": "img/drink2.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 37,
+        "title": "Berry Blast",
+        "image": "img/drink3.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 38,
+        "title": "Tropical Paradise",
+        "image": "img/drink4.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 39,
+        "title": "Cherry Fizz",
+        "image": "img/drink5.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 40,
+        "title": "Caramel Delight",
+        "image": "img/drink6.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 41,
+        "title": "Blue Lagoon",
+        "image": "img/drink7.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 42,
+        "title": "Strawberry Sunrise",
+        "image": "img/drink8.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      },
+      {
+        "id": 43,
+        "title": "Garden Harvest Salad",
+        "image": "img/ovochijpeg.jpeg",
+        "price": 140,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 44,
+        "title": "Mediterranean Medley",
+        "image": "img/pecherytsy.jpeg",
+        "price": 190,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 45,
+        "title": "Citrus Burst Salad",
+        "image": "img/camamber.jpeg",
+        "price": 290,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 46,
+        "title": "Summer Fiesta Salad",
+        "image": "img/cezar.jpeg",
+        "price": 130,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 47,
+        "title": "Crunchy Asian Slaw",
+        "image": "img/cinoas.jpeg",
+        "price": 190,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 48,
+        "title": "Quinoa Power Salad",
+        "image": "img/georgias.jpeg",
+        "price": 170,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 49,
+        "title": "Autumn Harvest Salad",
+        "image": "img/mix.jpeg",
+        "price": 190,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 50,
+        "title": "Zesty Southwest Salad",
+        "image": "img/georgias.jpeg",
+        "price": 190,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 51,
+        "title": "Quinoa Power Salad",
+        "image": "img/georgias.jpeg",
+        "price": 170,
+        "currency": "UAH",
+        "rating": {
+          "rate": "350 gram",
+          "count": "1 pcs",
+          "category": "Salads",
+          "img": "img/salad.png"
+        }
+      },
+      {
+        "id": 52,
+        "title": "Fricasse with pork",
+        "image": "img/wok2.jpeg",
+        "price": 250,
+        "currency": "UAH",
+        "rating": {
+          "rate": "230 gram",
+          "count": "1 pcs",
+          "category": "WOK",
+          "img": "img/Вок.png"
+        }
+      },
+      {
+        "id": 53,
+        "title": "Dragon Roll",
+        "image": "img/sush3.jpeg",
+        "price": 260,
+        "currency": "UAH",
+        "rating": {
+          "rate": "180 gram",
+          "count": "8 pcs",
+          "category": "Sushi",
+          "img": "img/Вок2.png"
+        }
+      },
+      {
+        "id": 54,
+        "title": "Electric Lemonade",
+        "image": "img/drink2.jpeg",
+        "price": 90,
+        "currency": "UAH",
+        "rating": {
+          "rate": "150 gram",
+          "count": "1 pcs",
+          "category": "Drinks",
+          "img": "img/icons8-milkshake-30.png"
+        }
+      }
+    ]
+  }

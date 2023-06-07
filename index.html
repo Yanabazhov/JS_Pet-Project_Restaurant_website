@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <aside>
+        <a href="/" class="logo"> <img src="./img/Logo.png" alt=""></a>
+        <nav class="navigation">
+            <a href="#" data-category="Sets" data-image="./img/sets.png"><img src="./img/sets.png" alt="" class="navigationBlock"> Sets</a>
+            <a href="#" data-category="Pizza" data-image="./img/pngwing.com.png"><img src="./img/pngwing.com.png" alt="" class="navigationBlock"> Pizza</a>
+            <a href="#" data-category="WOK" data-image="./img/Вок.png"><img src="./img/Вок.png" alt="" class="navigationBlock"> WOK</a>
+            <a href="#" data-category="Sushi" data-image="./img/Вок2.png"><img src="./img/Вок2.png" alt="" class="navigationBlock">Sushi</a>
+            <a href="#" data-category="Salads" data-image="./img/salad.png"><img src="./img/salad.png" alt="" class="navigationBlock">Salats</a>
+            <a href="#" data-category="Drinks" data-image="./img/icons8-milkshake-30.png"><img src="./img/icons8-milkshake-30.png" alt="" class="navigationBlock">Drinks</a>
+            <span class="button-promo__salads">NEW</span>
+            <span class="button-promo__wok">NEW</span>
+        </nav>
+    </aside>
+    <div class="wrapper">
+        <header>
+            <div class="container header__container">
+                <div class="header__numbers">
+                    <p>Our Phones</p>
+                    <p>+38050 151 51 51</p>
+                    <p>+38050 502 58 52</p>
+                </div>
+                <div class="header__hourse">Work Hours 10:00 - 00:00</div>
+                
+                <div class="header__city">
+                    <p>City:</p>
+                    <p>Kyiv</p>
+                </div>
+                <div class="header__search">
+                    <a href="#" class="header__search-reviews">Reviews</a>
+                    <a href="#" class="header__search-delivery">Delivery and payment</a>
+                    <div class="input-container">
+                        <img src="./img/Search_ico.png" alt="">
+                        <input type="text" id="authorSearch" class="author-search">
+                    </div>
+                </div>
+            </div>
+            <!-- /.container header -->
+        </header>
+        <!-- /header -->
+        <main>
+            <div class="container">
+              <div class="slider_cards" id="slider_cards"></div>
+                <div class="container catalog">
+                    <div class="catalog-header" style="display: none;">
+                        <h1></h1>
+                        <div class="custom-select">
+                            <select id="sort-select">
+                                <option id="option" value="1">Price: High to Low</option>
+                                <option id="option" value="2">Price: Low to High</option>
+                                <option id="option" value="3" selected>By Default</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="catalog__cards"></div>
+                    <div class="product-page">
+                        <div class="buttons-container"></div>
+                        <div class="selected-div-container"></div>
+                    </div>
+                </div>
+                <nav class="submenu submenu_small" >
+                    <a href="#" class="navigation-link" data-category="WOK" >
+                      <img src="./img/salmon.png" alt="Чікен">
+                      <span>Chicken</span>
+                    </a>
+                    <a href="#" class="navigation-link" data-category="Sushi">
+                      <img src="./img/вугрем.png" alt="Із вугрем">
+                      <span>With Fish</span>
+                    </a>
+                    <a href="#" class="navigation-link" data-category="WOK">
+                      <img src="./img/Безмяса.png" alt="Корн дог">
+                      <span>Corn Dog</span>
+                    </a>
+                    <a href="#" class="navigation-link" data-category="Pizza">
+                      <img src="./img/philadelfs.png" alt="Піца">
+                      <span>Pizza</span>
+                    </a>
+                    <a href="#" class="navigation-link" data-category="Salads">
+                      <img src="./img/Акции.png" alt="Акції">
+                      <span>NEW</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="container promo__slides">
+                <div class="promo__slides button-container">
+                    <button class="newbies active">Novelties</button>
+                    <button class="famouse">Popular</button>
+                </div>
+                <div class="promo__slides sliders__second" id="newbies-container"></div>
+                <div class="container sliders-third" id="famouse-container"></div>
+            </div>
+            <br>
+            <div class="recomended__cards__drinks" style="display: none;"></div>
+            <div class="container about">
+                <h2>Indulge in the Best of Both Worlds: Pizza and Sushi at Our Restaurant</h2>
+                <p>Are you in the mood for some delicious pizza or sushi? Look no further than our pizza and sushi restaurant!</p>
+                <p>Our restaurant is dedicated to providing you with the best of both worlds – delicious, high-quality pizza and sushi all under one roof. Our talented chefs use only the freshest, highest-quality ingredients to create mouth-watering dishes that are sure to satisfy.</p>
+                <p>Whether you're a die-hard pizza lover or a sushi aficionado, we have something for everyone. Our pizza menu features classic favorites like pepperoni and cheese, as well as more unique options like BBQ chicken and veggie-loaded pies. And our sushi menu includes everything from classic California rolls to more exotic options like spicy tuna and eel.</p>
+                <p>But that's not all – our restaurant also offers a range of appetizers, salads, and desserts to round out your meal. And with our comfortable and welcoming atmosphere, you're sure to feel right at home whether you're grabbing a quick bite or settling in for a leisurely meal.</p>
+                <p>In addition to our delicious food, our restaurant is also committed to providing exceptional service. Our friendly, knowledgeable staff is always on hand to answer your questions, make recommendations, and ensure that your dining experience is top-notch from start to finish.</p>
+                <p>So why choose between pizza and sushi when you can have both? Come visit our restaurant today and discover what makes us one of the best pizza and sushi restaurants in town. We can't wait to serve you!</p>
+            
+                <button class="more-info">More info</button>
+            </div>
+        </main>
+    </div>
+        <footer>
+            <div class="container">
+                <div class="additional-info">
+                    <a href="">About the company</a>
+                    <a href="">Shipping and Payment</a>
+                    <a href="">Material feed</a>
+                    <a href="">Return Policy</a>
+                </div>
+                <div class="additional-social">
+                    <form>
+                        <label for="phone">Phone:</label></form></br>
+                        <input type="tel" id="phone" name="phone" placeholder="+380 (   ) ___ __ __" required>
+                      
+                        <p>Contact via:</p>
+                        <div class="contact-img">
+                        <a href="#" onclick="selectSocialNetwork('watsapp');"><img src="./img/whatsapp.png" alt="watsapp"></a>
+                        <a href="#" onclick="selectSocialNetwork('telegram');"><img src="./img/telegram.png" alt="telegram"></a>
+                        <a href="#" onclick="selectSocialNetwork('instagram');"><img src="./img/Frame2.png" alt="Instagram"></a>
+                    </div>
+                      </form>
+                </div>
+                <div class="additional-phone">
+                    <p> Tel.+380504545693</p>
+                    <p>Tel.+380504545693</p>
+                    <span>Address: Shevchenko 20</span>
+                </div>
+            </div>
+            <!-- /.container -->
+        </footer>
+    <!-- /footer -->
+    </div>
+    <!-- /.wrapper -->
+    <div class="basket-and-map">
+        <div class="basket">
+            <div class="basket-choose ">
+                <div class="basket-choose_user">
+                    <h3>Your shopping cart is empty</h3>
+                    <p class="basket-choose__product-counting">We are waiting for your order</p>
+                    <p class="basket-choose__footer">Free delivery from UAH 500</p>
+                </div>
+            </div>
+            <div class="map">
+                <div id="map2" style="height:116px;"></div>
+                <button  class="btn"></button>
+                <div class="map-info">
+                    <h3>Enter the address</h3>
+                    <p>Find out the exact delivery time</p>
+                </div>
+                <div class="map-info-user hidden">
+                    <h3>Your location</h3>
+                    <p class="user-address"></p>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-nav" class="modal" style="display: none;">
+        <div class="modal-content">
+          <p>To select another category press button BACK on the Card page</p>
+          <button class="back-button">Back to the Card Page</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="./scripts/map.js"></script>
+    <script type="module" src="./scripts/script.js"></script>
+    <script type="module" src="./scripts/basketFunction.js"></script>
+    <script type="text/javascript" src="./scripts/modal.js"></script>
+    <script type="module" src="./scripts/sliders.js"></script>
+    <script type="module" src="./scripts/functions.js"></script>
+    <script type="module" src="./scripts/new_product.js"></script>
+
+
+
+</body>
+</html>
